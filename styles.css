@@ -1,0 +1,184 @@
+/* HTML Elements */
+body {
+  margin: 0;
+  background-color: #c36a2d;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #83b582;
+  margin: 50px auto 0 auto;
+  font-size: 4.625rem;
+  /* 1 em = 16 Font Size, rem = root em so size wont change with upstream size changes */
+}
+
+h2 {
+  color: #83b582;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  color: #83b582;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
+
+.footer-link {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 60px 20px;
+  /* This spaces out the links*/
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+  text-decoration: none;
+}
+
+/* Header & Information */
+.top-container {
+  background-color: #83b582;
+  position: relative;
+  padding-top: 0;
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.middle-container {
+  padding-bottom: 75px;
+  margin: 0;
+  overflow: hidden;
+  background-color: #eadca6;
+}
+
+.profile {
+  margin: 25px auto 35px auto;
+  width: 75%;
+  text-align: center;
+  font-size: 1.4em
+}
+
+.tree-table{
+  margin: 25px auto 35px auto;
+  width: 75%;
+  text-align: center;
+}
+
+
+.row-one{
+ background-color: #83b582;
+}
+
+.bio-row {
+  margin: auto;
+  width: 80%;
+}
+
+.image-container-one {
+  position: relative;
+  overflow: hidden;
+  margin: 25px auto 25px auto;
+  width: 75%;
+}
+
+.skill-row-one {
+  margin: 0;
+  text-align: right;
+  font-size: 1.3em
+}
+
+.ballandburlap-image {
+  margin: 10px 30px 10px 0;
+  min-width: 200px;
+  width: 35%;
+  float: left;
+  text-align: center;
+}
+
+.image-container-two {
+  position: relative;
+  overflow: hidden;
+  margin: 25px auto 25px auto;
+  width: 75%;
+}
+
+.skill-row-two {
+  margin: 0;
+  text-align: left;
+  font-size: 1.3em
+}
+
+.field-image {
+  float: right;
+  margin: 10px 0 10px 30px;
+  width: 35%;
+  min-width: 200px;
+}
+
+.image-container-three {
+  position: relative;
+  overflow: hidden;
+  margin: 25px auto 25px auto;
+  width: 75%;
+}
+
+.skill-row-three {
+  margin: 0;
+  text-align: right;
+  font-size: 1.3em
+}
+
+.container-image {
+  margin: 10px 30px 10px 0;
+  min-width: 200px;
+  width: 35%;
+  float: left;
+  text-align: center;
+}
+
+.tree-avatar{
+  max-width: 150px;
+}
+
+.navbar {
+  color: white;
+  min-height: 65%;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 50px;
+}
+
+/* Body Information */
+/* Footer & Information */
+.Footer {
+  padding: 25px 15px;
+  color: #dee0d9;
+  background-color: #208A4E;
+  text-align: center;
+}
+
+.copyrights {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
